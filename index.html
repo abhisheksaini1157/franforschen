@@ -1,0 +1,954 @@
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <title>Franforschen</title>
+    <!-- REVOLUTION STYLE SHEETS -->
+    <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="css/cubeportfolio.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+        #client {
+            background: #f5f2f2;
+        }
+        #contact {
+            background-color: #f5f2f2;
+        }
+        .mt-60{
+            margin-top: 55px!important;
+        }
+
+        header a.logo img {
+            max-height: 78px;
+            max-width: 252px;
+            vertical-align: sub;
+        }
+        .side-nav-btn{
+            top: 49px;
+        }
+        .mobile{
+            display: none!important;
+          }
+        @media only screen and (max-width: 600px) {
+            .contact-form .form-group {
+                margin-bottom: 0rem;
+            }
+
+            .contact-form .form-group {
+                margin-top: 27px;
+            }
+            .contact-form textarea {
+                min-height: 100px!important;
+                
+            }
+          .desktop{
+            display: none!important;
+          }
+          .mobile{
+            display: block!important;
+          }
+          .headc{
+            font-size: 23px!important;
+          }
+        }
+        .logo-dark{
+            padding: 5px 0px;
+        }
+    </style>
+
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="90">
+
+<!--Preloader-->
+<div class="loader" id="loader-fade">
+   <div class="loading-wrapper">
+      <div class="loading"></div>
+   </div>
+</div>
+
+<!--End Preloader-->
+
+<!--Header Section-->
+
+<header>
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-top-default bg-transparent navbar-default navbar-fixed-top nav-padding20 nav-icon black-bg fixed-black">
+        <div class="container">
+            <a href="#." title="Logo" class="logo scroll"><img src="images/logo.png" class="logo-dark" alt="logo">
+                <img src="images/logo.png" alt="logo" class="logo-light default">
+            </a>
+
+            <div class="side-nav-btn" id="sidemenu_toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+       <!--Nav Links-->
+            <div class="collapse navbar-collapse" id="bizwa">
+                <ul class="navbar-nav ml-auto nav-color">
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#client">Client</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="md-pl-0 pl-3 d-none d-lg-inline-block header-social">
+                <a class="facebook-hover-effect" href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a class="twitter-hover-effect" href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a class="instagram-hover-effect" href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+        </div><!--end container-->
+    </nav>
+
+    <!-- side menu -->
+    <div class="side-menu">
+        <div class="inner-wrapper">
+            <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
+            <nav class="side-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#services">Services</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#client">Client</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="side-footer text-white w-100">
+                <ul class="social-icons-simple">
+                    <li><a href="#" class="facebook-text-hvr"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+                    <li><a href="#" class="twitter-text-hvr"><i class="fa fa-instagram" aria-hidden="true"  target="_blank"></i></a> </li>
+                    <li><a href="#" class="linkedin-text-hvr" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </li>
+                </ul>
+                <p class="whitecolor">© 2021 All Rights Reserved. Designed By <a href="#">Abhishek saini</p>
+            </div>
+        </div>
+    </div>
+    <!-- End side menu -->
+
+</header>
+<!--End Header Section-->
+
+<!--rev slider-->
+<section id="home" class="p-0">
+    <h2 class="d-none">hidden</h2>
+    <div id="rev_slider_19_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="wexim_slider_01" data-source="gallery" style="background:transparent;padding:0px;">
+        <!-- START REVOLUTION SLIDER 5.4.8.1 fullscreen mode -->
+        <div id="rev_slider_19_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.8.1">
+            <ul>
+                <!-- SLIDE  -->
+                <li data-index="rs-1" data-transition="crossfade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/slide-img1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <!-- MAIN IMAGE -->
+                    <img src="images/banner1.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                    <!-- LAYERS -->
+
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption   tp-resizeme"
+                         id="slide-91-layer-1"
+                         data-x="['left','left','center','center']" data-hoffset="['0','50','0','0']"
+                         data-y="['top','top','middle','middle']" data-voffset="['309','262','-106','-110']"
+                         data-fontsize="['16','16','16','14']"
+                         data-width="none"
+                         data-height="none"
+                         data-whitespace="nowrap"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":200,"speed":900,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 5; white-space: nowrap; font-size: 16px; line-height: 20px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Roboto;">  </div>
+
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption   tp-resizeme"
+                         id="slide-91-layer-2"
+                         data-x="['left','left','center','center']" data-hoffset="['0','50','0','0']"
+                         data-y="['top','top','top','top']" data-voffset="['357','309','404','266']"
+                         data-fontsize="['50','50','40','30']"
+                         data-width="none"
+                         data-height="none"
+                         data-whitespace="nowrap"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":720,"split":"chars","splitdelay":0.1,"speed":900,"split_direction":"forward","frame":"0","from":"sX:0.8;sY:0.8;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 6; white-space: nowrap; font-size: 40px; line-height: 50px; font-weight: 500; color: #ffffff; letter-spacing: 0px;font-family:Raleway, sans-serif; margin-top: 50px;">Shaping the Future of Retail<br> in Indian Real Estate Market </div>
+
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption   tp-resizeme"
+                         id="slide-91-layer-3"
+                         data-x="['left','left','center','center']" data-hoffset="['0','50','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['10','10','0','-30']"
+                         data-fontsize="['50','50','40','30']"
+                         data-width="none"
+                         data-height="none"
+                         data-whitespace="nowrap"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":1290,"speed":900,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 7; white-space: nowrap; font-size: 40px; line-height: 60px; font-weight: 200; color: #ffffff; letter-spacing: 0px;font-family:Raleway, sans-serif; margin-top: 70px;"><br> </div>
+
+                    <!-- LAYER NR. 4 -->
+                    <div class="tp-caption   tp-resizeme"
+                         id="slide-91-layer-4"
+                         data-x="['left','left','center','center']" data-hoffset="['0','50','1','-1']"
+                         data-y="['top','top','middle','middle']" data-voffset="['484','447','71','29']"
+                         data-fontsize="['16','16','16','14']"
+                         data-lineheight="['22','22','22','18']"
+                         data-width="['601','530','601','450']"
+                         data-height="none"
+                         data-whitespace="normal"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":1680,"speed":900,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 8; min-width: 601px; max-width: 601px; white-space: normal; font-size: 16px; line-height: 22px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Roboto;">  </div>
+
+                    <!-- LAYER NR. 12 -->
+                    
+
+                    <!-- LAYER NR. 6 -->
+                    <div class="tp-caption d-none d-lg-block tp-resizeme rs-parallaxlevel-1"
+                         id="slide-91-layer-7"
+                         data-x="['right','right','right','right']" data-hoffset="['0','-50','-749','-885']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['0','0','-9','-27']"
+                         data-width="none"
+                         data-height="none"
+                         data-whitespace="normal"
+
+                         data-type="image"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":1810,"speed":900,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','inherit','inherit']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 10;">
+                       
+                </li>
+
+                <!-- SLIDE  -->
+                <li data-index="rs-2" data-transition="crossfade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/slide-img2.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+
+                    <!-- MAIN IMAGE -->
+                    <img src="images/banner3.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                    <!-- LAYERS -->
+
+                    <!-- Overlay -->
+                    <div class="gradient-bg1 bg-overlay opacity-8 z-index-1"></div>
+
+                    <!-- LAYER NR. 8 -->
+                    
+
+                    <!-- LAYER NR. 9 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','3']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['0','7','7','-38']"
+                         data-fontsize="['80','70','60','40']"
+                         data-width="none"
+                         data-height="none"
+                         data-whitespace="nowrap"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":950,"speed":2000,"sfxcolor":"#ffffff","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','inherit','inherit']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 6; white-space: nowrap;text-align: center; font-size:40px; line-height: 80px; font-weight: 600; color: #ffffff; letter-spacing: 4px;font-family:Raleway, sans-serif; text-transform: capitalize"></div>
+
+
+                         <div class="tp-caption   tp-resizeme"
+                         data-x="['center','center','center','center']" data-hoffset="['0','50','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['10','12','0','-30']"
+                         data-fontsize="['50','50','40','30']"
+                         data-width="none"
+                         data-height="none"
+                         data-whitespace="nowrap"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":1290,"speed":900,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['center','center','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 6; white-space: nowrap; font-size: 40px; line-height: 50px; font-weight: 500; color: #ffffff; letter-spacing: 0px;font-family:Raleway, sans-serif">Real Estate and Franchisee<br> Business Consulting</div>
+
+                    <!-- LAYER NR. 10 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-x="['center','center','center','center']" data-hoffset="['1','1','4','4']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['81','81','83','12']"
+                         data-fontsize="['18','18','16','14']"
+                         data-width="600"
+                         data-height="none"
+                         data-whitespace="normal"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":1670,"speed":900,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['center','center','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,70,0,0]"
+
+                         style="z-index: 7;  max-width: 500px; white-space: normal; font-size: 18px; line-height: 22px; font-weight: 300; color: #ffffff; letter-spacing: 1px;font-family:Roboto; margin-top: 50px;"><br>We offer networking solutions to all stakeholders for expanding <br> franchisee footprint.</div>
+
+                    <!-- LAYER NR. 11 -->
+
+
+                    
+
+                </li>
+
+                <!-- SLIDE  -->
+                <li data-index="rs-3" data-transition="crossfade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/slide-img2.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+
+                    <!-- MAIN IMAGE -->
+                    <img src="images/banner2.jpg" alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                    <!-- LAYERS -->
+
+                    <!-- Overlay -->
+                    <div class="gradient-bg1 bg-overlay opacity-8 z-index-1"></div>
+
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-x="['right','right','center','center']" data-hoffset="['0','50','0','0']"
+                         data-y="['top','top','middle','middle']" data-voffset="['309','262','-106','-110']"
+                         data-fontsize="['16','16','16','14']"
+                         data-width="none"
+                         data-height="none"
+                         data-whitespace="nowrap"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":200,"speed":900,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['right','right','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 5; white-space: nowrap; font-size: 16px; line-height: 20px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Roboto;"></div>
+
+                    <!-- LAYER NR. 2 -->
+                    
+
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-x="['right','right','center','center']" data-hoffset="['0','50','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['10','12','0','-30']"
+                         data-fontsize="['50','50','40','30']"
+                         data-width="none"
+                         data-height="none"
+                         data-whitespace="nowrap"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":1290,"speed":900,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['right','right','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 6; white-space: nowrap; font-size: 40px; line-height: 50px; font-weight: 500; color: #ffffff; letter-spacing: 0px;font-family:Raleway, sans-serif">Retail Property Leasing</div>
+
+                    <!-- LAYER NR. 4 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-x="['right','right','center','center']" data-hoffset="['0','50','1','-1']"
+                         data-y="['top','top','middle','middle']" data-voffset="['484','447','71','29']"
+                         data-fontsize="['16','16','16','14']"
+                         data-lineheight="['22','22','22','18']"
+                         data-width="['601','530','601','450']"
+                         data-height="none"
+                         data-whitespace="normal"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":1680,"speed":900,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['right','right','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 8; min-width: 601px; max-width: 601px; white-space: normal; font-size: 16px; line-height: 22px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Roboto;">Delivering strategic leasing services for investors and creating values for landlords. </div>
+
+                    <!-- LAYER NR. 12 -->
+
+
+                </li>
+
+
+            </ul>
+        </div>
+        <!-- END REVOLUTION SLIDER -->
+    </div>
+
+</section>
+<!--rev slider end-->
+
+<!--about section-->
+<section class="about" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 pr-5 wow fadeInLeft" style="padding-top: 66px;">
+                <div class="rare-box"></div>
+                <img src="images/about-img.jpg" class="image-about position-relative w-100" alt="">
+            </div>
+            <div class="col-lg-6 pl-6 center-about">
+                <h2 class="wow fadeInUp" data-wow-delay="400ms"><span class="green"> Overview</span></h2>
+                <p class="pt-3 wow fadeInUp" data-wow-delay="500ms">We firmly believe in the benefits of franchising and therefore we are committed to make you realize them. Whether you are a business seeking to expand the reach of your concept or an investor seeking to acquire an existing and established brand, we provide a structured process to enhance the efficiency of your search. We focus on providing you the research and analysis that will help you in making confident decisions. As franchise consultants, we use our expertise and know-how to help you confidently navigate the top franchise opportunities, saving you time, energy and money.</p>
+                <h3 class="pt-3">Our Vision</h3>
+                <p>Franforschen is dedicated to being a trusted growth partner by delivering the best possible service and management solutions not only for our clients but for the entire retail industry.</p>
+               
+            </div>
+        </div>
+        <div class="row mobile">
+            <div class="col-lg-6 pr-5 wow fadeInLeft mt-60" style="padding-top: 66px;">
+                <div class="rare-box"></div>
+                <img src="images/abot1.jpg" class="image-about position-relative w-100" alt="">
+            </div>
+            <div class="col-lg-6 pl-6 center-about  ">
+                <h2 class="wow fadeInUp" data-wow-delay="400ms"><span class="green"> About Us</span></h2>
+                <p class="pt-3 wow fadeInUp" data-wow-delay="500ms">Franforschen is a Consulting firm providing Retail Business Expansion and Management Services. We work for Retail Companies who wish to expand their Business and organise their Operations. We provide solutions to all young, dynamic & visionary retailers, brimming with confidence who want to organize themselves to expand & unleash their true potential. Our services also include Retail Management and B2B Sales.</p>
+                <h4>Services Offered</h4>
+                <ul class="pl-0 left-about wow fadeInUp" data-wow-delay="600ms">
+                    <li>Franchisee Sales & Acquisition.</li><br>
+                    <li>Retail Management Solutions & B2B Sales</li><br>
+                    <li>Manpower Hiring & Training</li>
+                </ul>
+               
+            </div>
+        </div>
+        <div class="row desktop">
+            <div class="col-lg-6 pl-6 center-about mt-60 ">
+                <h2 class="wow fadeInUp" data-wow-delay="400ms"><span class="green"> About Us</span></h2>
+                <p class="pt-3 wow fadeInUp" data-wow-delay="500ms">Franforschen is a Consulting firm providing Retail Business Expansion and Management Services. We work for Retail Companies who wish to expand their Business and organise their Operations. We provide solutions to all young, dynamic & visionary retailers, brimming with confidence who want to organize themselves to expand & unleash their true potential. Our services also include Retail Management and B2B Sales.</p>
+                <h4>Services Offered</h4>
+                <ul class="pl-0 left-about wow fadeInUp" data-wow-delay="600ms">
+                    <li>Franchisee Sales & Acquisition.</li><br>
+                    <li>Retail Management Solutions & B2B Sales</li><br>
+                    <li>Manpower Hiring & Training</li>
+                </ul>
+               
+            </div>
+           
+            <div class="col-lg-6 pr-5 wow fadeInLeft" style="padding-top: 66px;">
+                <div class="rare-box"></div>
+                <img src="images/abot1.jpg" class="image-about position-relative w-100" alt="">
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!--about section end-->
+
+<!--Counter start-->
+
+<!--Counter end-->
+
+<!--Parallax Section-->
+<section class="parallex-section parallax parallaxie img-size">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <p class="parallex-para text-center text-white pb-20">Franchisee Business Consulting & Retail Management.</p>
+                <h2 class="parallex-heading text-center font-weight-bold text-white text-capitalize mb-30">We strive to make your retail journey a seamless one.</h2>
+                <a class="transparent hvr-shutter-out-horizontal-blk btn btn-large btn-rounded btn btn-medium btn-transparent-white text-capitalize" href="#contact">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    <!-- end container-->
+</section>
+<!--End Parallax Section-->
+
+<!--blog section-->
+<section class="blog-section" id="services">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="col-lg-6 col-md-6 col-sm-12 wow fadeInRight order-md-2" data-wow-delay="600ms">
+                <div class="blog-img">
+                    <div class="hover-effect">
+                        <img src="images/blog-2.jpg" alt="blog-1">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="600ms">
+                <div class="text-1 text-11 center-text">
+                  
+                    <h2 class="blog-heading font-weight-600 text-capitalize headc">Franchise Sales & Acquisition :</h2>
+                    <p class="blog-para">Retail business requires a 360 degrees approach. We offer integrated retail solutions right from strategy to execution for all stakeholders - Landlords, Retailers and Investors across india. Whether you are a business seeking to expand the reach of your concept or an investor seeking to acquire an existing and established brand, we provide a structured process to enhance the efficiency of your search and help in associating with the right partner.</p>
+                  
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row align-items-center pt-70">
+            <div class="col-lg-6 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="600ms">
+                <div class="blog-img img-padding">
+                    <div class="hover-effect">
+                        <img src="images/blog-1.jpg" alt="blog-2">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="600ms">
+                <div class="text center-text">
+                    
+                    <h2 class="font-weight-600 text-capitalize headc" >Retail Management Solutions :</h2>
+                    <p class="blog-para-2">We believe that success relies on strengthening your identity in best retail practices. We offer sales and operational consulting for retail development. Our areas of focus are sourcing, supply chain and sales process. Franforschen is also supplying multiple products to corporates under B2B Sales. </p>
+                    
+                </div>
+            </div>
+        </div>
+         <div class="row align-items-center">
+
+            <div class="col-lg-6 col-md-6 col-sm-12 wow fadeInRight order-md-2" data-wow-delay="600ms">
+                <div class="blog-img">
+                    <div class="hover-effect">
+                        <img src="images/blog-11.jpg" alt="blog-1">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 wow fadeInLeft" data-wow-delay="600ms">
+                <div class="text-1 text-11 center-text">
+                    
+                    <h2 class="blog-heading font-weight-600 text-capitalize headc">Training & Manpower :</h2>
+                    <p class="blog-para">Developing your teams skills is a key factor in retail growth. As a retail think lab we offer innovative ideas for selling, retail management and training methods. We are also associated with management institutions for retail manpower development.</p>
+                  
+                </div>
+            </div>
+
+        </div>
+    </div><!--end container-->
+</section>
+<!--end blog section-->
+
+
+<!-- Client start -->
+<section id="client" class="bg-light-gray">
+    <div class="container testimonial-container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title text-center">
+                    <h5 class="mb-3 blue mb-20 text-capitalize">Our Testimonial</h5>
+                    <h2 class="gradient-text1 mb-3 mb-20 text-capitalize">Happy Client</h2>
+                    <p class="md-0 text-width client-padding">We have a number of clients, whose reported experience with our firm, and the ratings given to us by them exceeds the specified satisfaction goals. We always try to give our best efforts in order to assist them for contributing to the solutions to their problems. </p>
+                </div>
+            </div>
+        </div>
+        <div class="row m-0">
+            <div class="col-sm-12 align-items-center">
+                <div class="owl-testimonial owl-carousel owl-theme">
+                    <div class="testimonial-item item text-center">
+                        <div class="testimonial-box">
+                            <div class="testimonial-text position-relative mb-4">
+                                <p>Thanks for helping us in Large Format Expansion. Today's e-commerce represents a channel that is growing much faster than the brick and mortar business. Thank you Franforschen. </p>
+                                
+                                <span class="testimonial-arrow position-absolute"></span>
+                            </div>
+                        </div>
+                        <div class="testimonial-photo"><img alt="" src="images/5.png"></div>
+                        <h5 class="text-capitalize color-black mt-3 mb-1"> Niraj Kumar</h5>
+                        <p class="color-pink blue"> Director -  Devagabond Outdoor Pvt Ltd </p>
+                    </div>
+                    <div class="testimonial-item item text-center">
+                        <div class="testimonial-text position-relative mb-4">
+                            <p>Franforschen has been very resourceful in upper North Expansion. It has helped us in growing our footprint across north with huge success. </p>
+                            
+                            <span class="testimonial-arrow position-absolute"></span>
+                        </div>
+
+                        <div class="testimonial-photo"><img alt="" src="images/6.png"></div>
+                        <h5 class="text-capitalize color-black mt-3 mb-1">Lokesh Makhija</h5>
+                        <p class="color-pink blue">Business Development - United Colors of Benetton </p>
+                    </div>
+                    <div class="testimonial-item item text-center">
+                        <div class="testimonial-text position-relative mb-4">
+                            <p>Franforschen is delivering desired results within assigned timelines. I am very much pleased with the services provided by franforschen.</p>
+                           
+                            <span class="testimonial-arrow position-absolute"></span>
+                        </div>
+
+
+                        <div class="testimonial-photo"><img alt="" src="images/7.png"></div>
+                        <h5 class="text-capitalize color-black mt-3 mb-1">Ekansh Bedi</h5>
+                        <p class="color-pink blue text-capitalize">National Sales Manager - GAP India </p>
+                    </div>
+                    <div class="testimonial-item  item text-center">
+                        <div class="testimonial-text position-relative mb-4">
+                            <p>One of my most favourite collabourites. It's a very nice experience working with the franforschen team. Their property profiling is crisp and targeted. It helped us in growth of our business.</p>
+                            
+                            <span class="testimonial-arrow position-absolute"></span>
+                        </div>
+                        <div class="testimonial-photo"><img alt="" src="images/8.png"></div>
+                        <h5 class="text-capitalize color-black mt-3 mb-1">Karunesh</h5>
+                        <p class="color-pink blue text-capitalize"> Business Development - Raymond</p>
+                    </div>
+                    <div class="testimonial-item  item text-center">
+                        <div class="testimonial-text position-relative mb-4">
+                            <p>Franforschen is a one stop solution for modular kitchens operational consulting. They have provided us efficient and cost effective solutions for smooth operations. </p>
+                            
+                            <span class="testimonial-arrow position-absolute"></span>
+                        </div>
+                        <div class="testimonial-photo"><img alt="" src="images/9.png"></div>
+                        <h5 class="text-capitalize color-black mt-3 mb-1">Rahul Shrivastava</h5>
+                        <p class="color-pink blue text-capitalize">Business Head - Nobilia Kuchen </p>
+                    </div>
+                    <div class="testimonial-item  item text-center">
+                        <div class="testimonial-text position-relative mb-4">
+                            <p>Thanks for helping us in Rajasthan territory expansion. We are glad to receive the services of the company which has helped in growth of our company.  </p>
+                            
+                            <span class="testimonial-arrow position-absolute"></span>
+                        </div>
+                        <div class="testimonial-photo"><img alt="" src="images/10.png"></div>
+                        <h5 class="text-capitalize color-black mt-3 mb-1">Shekhar</h5>
+                        <p class="color-pink blue text-capitalize">Business Development - Arvind Fashion Ltd </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Client ends -->
+
+
+<!-- our client -->
+<section class="our-client" style="background-color:white">
+    <h2 class="d-none" aria-hidden="true">slider</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center wow fadeIn">
+                <div class="title d-inline-block">
+                    
+                    <h2 class="gradient-text1 mb-3 mb-20 text-capitalize">Our Associations</h2>
+                    
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12 p-0">
+                <div class="owl-carousel partners-slider">
+                    <div class="item">
+                        <div class="logo-item"> <img alt="image" src="images/1.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="image" src="images/2.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"> <img alt="image" src="images/3.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="image" src="images/4.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="image" src="images/11.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="image" src="images/12.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="image" src="images/13.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="image" src="images/14.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="image" src="images/15.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="image" src="images/16.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="image" src="images/v1.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="image" src="images/v2.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="image" src="images/21.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="image" src="images/22.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="image" src="images/23.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="image" src="images/24.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="image" src="images/25.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="image" src="images/26.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="image" src="images/27.png"></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- our client end -->
+
+
+
+<!--Form Start-->
+<section>
+    <div class="container">
+        <!--Heading-->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="title d-inline-block">
+                    <h5 class="mb-3 blue">Franchisee Business Consulting & Retail Management</h5>
+                    <h3 class="text-capitalize">Get in touch with us.</h3>
+                </div>
+            </div>
+        </div>
+
+        <!--contact us-->
+        <form class="contact-form" action="contact.php" method="POST">
+            <div class="row">
+
+                <div class="col-sm-12" id="result"></div>
+
+                <div class="col-md-6 col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" type="text" placeholder="First Name:" required="" id="first_name" name="first_name">
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" type="text" placeholder="Last Name:" required="" id="last_name" name="last_name">
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" type="email" placeholder="Email:" required="" id="email" name="email">
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="form-group">
+                        <input class="form-control" type="tel" placeholder="Phone:" id="phone" name="phone">
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12">
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Message" id="message" name="message"></textarea>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <button type="submit" class="custom-btn green hvr-shutter-out-horizontal-blk btn btn-large btn btn-medium btn-rounded green-background mt-30" id="submit_btn"><i class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i> <span class="text-capitalize">Contact Now</span></button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+<!--Form End-->
+
+
+<!-- Contact Start -->
+<section id="contact" class="p-0">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 p-0 mobile">
+                <img src="images/unnamed.jpg" style="width: 100%;">
+            </div>
+            <div class="col-md-6 p-0">
+                <div class="address-box tittle mb-0 bg-img4">
+                    <!--overlay-->
+                    <div class="bg-overlay gradient-bg1 opacity-8"></div>
+                    <div class="address-text text-md-left text-center text-white position-relative wow fadeInUp">
+                        <h5 class="mb-3">Whatever you're thinking, think bigger</h5>
+                        <!--title-->
+                        <h2 class="mb-4">Franforschen</h2>
+                        <!--Address-->
+                        <p class="mb-3">F2, Akshat Meadows, Sirsi Road, Jaipur, Rajasthan - 302012 </p>
+                        <!--Phone-->
+                        <p class="mb-3">Office Telephone : +91 1416764444<br>
+                            Mobile : : +91 9888129290 </p>
+                        <!--Email-->
+                        <p class="mb-3">E-mail : info@franforschen.com</p>
+                        <!--Timing-->
+                        <p class="mb-3">Mon-Fri: 9am to 6pm</p>
+                        <!--Social Icon-->
+                        <p class="mb-3">Website: www.franforschen.com</p>
+
+                        <div class="address-social pt-3">
+                            <ul class="mb-0">
+                                <li ><a class="facebook-bg-hvr" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a class="linkedin-bg-hvr" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a class="instagram-bg-hvr" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 p-0 desktop">
+                <img src="images/unnamed.jpg" style="width: 100%;">
+            </div>
+            </div>
+        </div>
+</section>
+<!-- Contact end -->
+
+
+
+
+<!--Footer Start-->
+<section class="text-center dark-blue-background">
+    <h2 class="d-none">hidden</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer-social">
+                    <ul class="list-unstyled text-white">
+                        <li><a class="wow fadeInUp facebook-bg-hvr" href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a class="wow fadeInDown linkedin-bg-hvr" href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                       <li><a class="wow fadeInUp instagram-bg-hvr" href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        
+                    </ul>
+                </div>
+                <p class="company-about fadeIn grey-text text-capitalize">© 2021 All Rights Reserved. Designed By Abhishek saini</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Footer End-->
+
+
+<!-- Optional JavaScript -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/parallaxie.min.js"></script>
+<!--Appear JS-->
+<script src="js/jquery.appear.js"></script>
+<!--Jquery-countTo JS-->
+<script src="js/jquery-countTo.js"></script>
+<!--Parallaxie JS-->
+<script src="js/parallaxie.min.js"></script>
+<!--Fancy Box JS-->
+<script src="js/jquery.fancybox.min.js"></script>
+<!--Cube Portfolio JS-->
+<script src="js/jquery.cubeportfolio.min.js"></script>
+<!--owl carousel JS-->
+<script src="js/owl.carousel.min.js"></script>
+<!--Wow JS-->
+<script src="js/wow.min.js"></script>
+<!--Equil Height-->
+<script src="js/jquery.matchHeight-min.js"></script>
+
+
+<!-- REVOLUTION JS FILES -->
+<script src="revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS -->
+<script src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+
+
+<!-- custom script -->
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
